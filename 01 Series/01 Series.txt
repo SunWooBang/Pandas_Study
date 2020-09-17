@@ -1,0 +1,6 @@
+1차원 배열형태
+
+변환: pandas.Serise(딕셔너리)
+
+인덱스 배열: Series객체.index
+데이터 값 배열: Series객체.value

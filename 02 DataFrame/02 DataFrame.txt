@@ -1,0 +1,31 @@
+2차원 배열. 인덱스 기준으로 결합된 2차원 벡터, 행렬. 
+#practice01 참고
+변환: pandas.DataFrame(딕셔너리 객체)
+
+index와 columns의 이름을 설정해 줄 수 있다.
+ -> pandasDataFrame( 배열, index="이름", columns="이름")
+
+
+#practice02.py 참고
+1. 이름수정
+ .rename 
+  -> 인덱스, 열 등의 이름을 변경할 수 있다.
+  -> 원본 객체를 변경하려면 inplace=Ture 옵션 사용
+
+2. 삭제
+ .drop
+  -> 인덱스, 행 등으로 삭제
+  -> 원본 객체를 변경하려면 inplace=Ture 옵션 사용
+
+3. 행 선택
+ .loc
+ .iloc
+  -> 행 선택 인덱서.
+  -> loc은 인덱스 이름, iloc는 인덱스 정수형 위치 인덱스
+
+4. 열 선택
+ DataFrame 객체. 열 이름
+
+5. 원소 선택
+ .loc -> index 이름, columns 이름
+ .iloc -> 행 번호, columns 번호
